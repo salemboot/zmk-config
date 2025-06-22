@@ -33,12 +33,12 @@
                 };
                 lower_layer {
 // -----------------------------------------------------------------------------------------
-// |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | PG_UP |
+// |  ESC |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | PG_UP |
 // | RCTRL| BT1 | BT2 | BT3 | BT4 | BT5 |   |     |  UP |     |     |     | PG_DN |
 // | LSHIFT |     |     |     |     |     |   | LFT | DWN | RGT |     |     | RSHIFT |
 //                    | GUI |     | ENTER |   | SPC |     | ALT |
                         bindings = <
-   &kp TAB     &kp N1           &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp PG_UP
+   &kp ESC     &kp N1           &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp PG_UP
    &kp RCTRL   &bt BT_SEL 0     &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &ext_power EP_TOG &kp UP &trans &trans &kp DEL &kp PG_DN
    &kp LSHIFT  &rgb_ug RGB_TOG  &rgb_ug RGB_COLOR_HSB(128,50,128)  &rgb_ug RGB_EFF &rgb_ug RGB_EFR      &trans &kp LEFT   &kp DOWN   &kp RIGHT &bt BT_CLR &kp RSHIFT
                                     &kp GUI     &trans       &kp RET      &kp SPACE  &trans   &kp RALT
